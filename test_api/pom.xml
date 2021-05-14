@@ -33,7 +33,7 @@
 					    <environment>Sandbox</environment>
 					    <objectStoreV2>true</objectStoreV2>
 					    <workers>1</workers>
-					    <applicationName>test_api</applicationName>
+					    <applicationName>test-api</applicationName>
 					    <workerType>Micro</workerType>
 					  </cloudHubDeployment>
 				</configuration>
