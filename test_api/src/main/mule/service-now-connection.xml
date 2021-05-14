@@ -49,11 +49,12 @@ output application/json
 payload]]></ee:set-payload>
 			</ee:message>
 		</ee:transform>
+		<logger level="INFO" doc:name="Logger" doc:id="ea625ab8-6531-4312-b7ee-c0d22eeceaa6" message="flow completed"/>
 	
 </flow>
 	<flow name="sn-get-incident" doc:id="3b7ed57b-f260-4368-ab41-fe371f5bf00e" >
 		<http:listener doc:name="Listener" doc:id="93670933-a061-4e4a-a774-7948ecbca35e" config-ref="HTTP_Listener_config" path="/get" allowedMethods="GET"/>
-		<logger level="INFO" doc:name="Logger" doc:id="351e7a2c-23b5-4a12-bc50-b448053e370e" message="get incident flow started"/>
+		<logger level="INFO" doc:name="Logger" doc:id="351e7a2c-23b5-4a12-bc50-b448053e370e" message="get incident flow just started"/>
 		<ee:transform doc:name="Transform Message" doc:id="300b6aa2-e537-4ec7-b604-de16c4bf65f0" >
 			<ee:message >
 				<ee:set-payload ><![CDATA[%dw 2.0
@@ -76,6 +77,8 @@ output application/json
 payload]]></ee:set-payload>
 			</ee:message>
 		</ee:transform>
-	</flow>
+		<logger level="INFO" doc:name="Logger" doc:id="be9548b8-272c-40f9-a646-6f649da01982" message="flow completed"/>
+	
+</flow>
 	
 	</mule>
