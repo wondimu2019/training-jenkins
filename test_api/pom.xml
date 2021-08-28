@@ -28,7 +28,7 @@
 					<cloudHubDeployment>
 					    <uri>https://anypoint.mulesoft.com</uri>
 					    <muleVersion>4.3.0</muleVersion>
-					    <username>wondimu31</username>
+					    <username>wondimu_01</username>
 					    <password>Ber230601*</password>
 					    <environment>Sandbox</environment>
 					    <objectStoreV2>true</objectStoreV2>
