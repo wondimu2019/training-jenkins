@@ -14,7 +14,6 @@ stages{
          bat ‘mvn package deploy -DmuleDeploy’
             }
          }
-     } 
-  }
+    }
 
 }
